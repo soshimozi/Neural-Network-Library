@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="BiasNode.cs" />
     <Compile Include="Layer.cs" />
+    <Compile Include="NetFileData.cs" />
     <Compile Include="Neuron.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Link.cs" />

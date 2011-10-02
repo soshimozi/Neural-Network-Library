@@ -5,7 +5,15 @@ using System.Text;
 
 namespace NN
 {
-    class NetFileData
+    struct WeightImage
     {
+        public double Data;
+        public int SourceIndex;
+        public int DestinationIndex;
+    }
+
+    public class NetFileData
+    {
+        private List<WeightImage> weights = new List<WeightImage>();
     }
 }

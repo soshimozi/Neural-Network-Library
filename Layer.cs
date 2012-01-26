@@ -38,7 +38,7 @@ namespace NN
         {
             foreach (Neuron n in neurons)
             {
-                n.Calculate();
+                n.Calculate(); 
             }
         }
 

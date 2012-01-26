@@ -15,7 +15,7 @@ namespace NN
 
         public double Value
         {
-            get;
+            get; 
             set;
         }
 

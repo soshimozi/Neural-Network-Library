@@ -10,7 +10,7 @@ namespace NN
         private List<Layer> layers = new List<Layer>();
 
         public void Setup(NetFileData data)
-        {
+        { 
             Neuron.Temperature = data.Temperature;
             Neuron.Threshold = data.Threshold;
 

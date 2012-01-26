@@ -35,7 +35,7 @@ namespace NN
             private set;
         }
 
-        public int GetLayerSize(int layer)
+        public int GetLayerSize(int layer) 
         {
             return neurons[layer];
         }
@@ -45,7 +45,7 @@ namespace NN
             var list = weights[layer] == null ? (weights[layer] = new List<WeightImage>()) : weights[layer];
             list.Add(new WeightImage() { DestinationIndex = destination, SourceIndex = source, Data = w });
         }
-
+         
         public double GetWeights(int layer, int destination, int source)
         {
             var query = from wi in weights[layer]

@@ -41,7 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BiasNode.cs" />
+    <Compile Include="DummyEncoding.cs" />
+    <Compile Include="EffectsEncoding.cs" />
+    <Compile Include="EncodeMessage.cs" />
+    <Compile Include="FileEncoder.cs" />
+    <Compile Include="GausianNormalize.cs" />
+    <Compile Include="IEncoding.cs" />
+    <Compile Include="INormalize.cs" />
     <Compile Include="Layer.cs" />
+    <Compile Include="MinMaxNormalize.cs" />
     <Compile Include="NetFileData.cs" />
     <Compile Include="Neuron.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
